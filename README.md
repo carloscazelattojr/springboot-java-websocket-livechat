@@ -3,7 +3,8 @@ LiveChat with WebSocket
 
 Project with the purpose of studying websocket with SpringBoot and Java.
 
-## Getting Started
+Getting Started
+-------
 
 Clone the project and start.
 To test, just access the address
@@ -16,12 +17,16 @@ You can open several anonymous tabs to test.
 
 Messages sent will not be saved in the database. Only my memory will remain.
 
-## Tecnologies
+Tecnologies
+-------
+
 - SpringBoot 3.3.4
 - Java 21
 - STOMP
 
-## Example
+Example
+-------
+
 <div align="center">
   <a href="#">
       <img src="https://github.com/carloscazelattojr/springboot-java-websocket-livechat/blob/main/img/PrintLiveChat.png" width="600" alt="preview" />
@@ -32,3 +37,6 @@ License
 -------
 
 Everything found in this repo is licensed under an MIT license.
+
+
+Credits: Build & Run
