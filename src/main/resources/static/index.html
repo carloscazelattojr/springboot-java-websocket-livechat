@@ -20,33 +20,46 @@
         </div>
     </div>
 
+    <!-- First Row: Username Input -->
     <div class="row">
-        <div class="col-md-6">
-            <form class="form-inline">
+        <div class="col-md-12">
+            <form class="form-inline text-center">
                 <div class="form-group">
                     <label for="user">Username:</label>
                     <input type="text" id="user" class="form-control" placeholder="Enter your username">
                 </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Second Row: Connect and Disconnect Buttons -->
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <button id="connect" class="btn btn-connect">Connect</button>
+            <button id="disconnect" class="btn btn-disconnect" disabled="disabled">Disconnect</button>
+        </div>
+    </div>
+
+    <!-- Third Row: Message Input -->
+    <div class="row">
+        <div class="col-md-12">
+            <form class="form-inline text-center">
                 <div class="form-group">
                     <label for="message">Message:</label>
                     <input type="text" id="message" class="form-control" placeholder="Type your message...">
                 </div>
             </form>
         </div>
-        <div class="col-md-6 text-right">
-            <button id="connect" class="btn btn-connect">Connect</button>
-            <button id="disconnect" class="btn btn-disconnect" disabled="disabled">Disconnect</button>
-        </div>
     </div>
 
-    <div class="row" id="message-input">
-        <div class="col-md-12">
+    <!-- Fourth Row: Send Button and Chat Table -->
+    <div class="row">
+        <div class="col-md-12 text-center">
             <form class="form-inline">
                 <button id="send" class="btn btn-primary" type="submit">Send</button>
             </form>
         </div>
     </div>
-
     <div class="row">
         <div class="col-md-12">
             <table id="conversation" class="table table-striped">
