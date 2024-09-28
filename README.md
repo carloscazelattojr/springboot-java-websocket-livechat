@@ -21,6 +21,13 @@ Messages sent will not be saved in the database. Only my memory will remain.
 - Java 21
 - STOMP
 
+## Example
+<div align="center">
+  <a href="#">
+      <img src="https://github.com/carloscazelattojr/springboot-java-websocket-livechat/blob/main/img/PrintLiveChat.png" width="600" alt="preview" />
+  </a>
+</div>
+
 License
 -------
 
